@@ -1,7 +1,7 @@
 # SA-AutoAug
 **Scale-aware Automatic Augmentation for Object Detection**
 
-Yukang Chen$^{\dagger}$, Yanwei Li$^{\dagger}$, Tao Kong, Lu Qi, Ruihang Chu, Lei Li, Jiaya Jia
+Yukang Chen<sup>$\dagger$</sup>, Yanwei Li<sup>$\dagger$</sup>, Tao Kong, Lu Qi, Ruihang Chu, Lei Li, Jiaya Jia
 
 <!-- [[`Paper`](https://arxiv.org/abs/2103.17220)] [[`BibTeX`](#CitingSAAutoAug)] -->
 
