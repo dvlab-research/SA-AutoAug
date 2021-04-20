@@ -92,7 +92,7 @@ We provide the results on COCO *val2017* set with pretrained models.
 | Faster R-CNN  | ResNet-50 | 41.9 | [Model](https://drive.google.com/file/d/1jgxnw1-b4ZnTNyn9rR_7u6vkvqGR1ks3/view?usp=sharing) - [Metrics](https://drive.google.com/file/d/16d1MyFVPWHJK__O0FQcAwxG8uWc8vAhi/view?usp=sharing) |
 | Faster R-CNN  | ResNet-101 | 44.2 | [Model](https://drive.google.com/file/d/10A16hUKpL2ffNpk38cOq5V9GuDB7OwwS/view?usp=sharing) - [Metrics](https://drive.google.com/file/d/1LAAD06iJ3vG7AwMjg9mHwTBPqvGXte9p/view?usp=sharing) |
 | RetinaNet  | ResNet-50 | 40.8 | [Model](https://drive.google.com/file/d/1GHAhrBa-TV_tJp3HGmWO02gZF06XP2vF/view?usp=sharing) - [Metrics](https://drive.google.com/file/d/15P05HgmXC1-Id-9LMtLb11fkAyBD3_Yy/view?usp=sharing) |
-| RetinaNet  | ResNet-101 | 42.9 | [Model](https://drive.google.com/file/d/1zYPTVvu-KnOSKzXxiEvSaav2OqcomqqF/view?usp=sharing) - [Metrics](https://drive.google.com/file/d/1_8QYMlJvvuEf35cty7SXrN-Hg1IHQVxh/view?usp=sharing) |
+| RetinaNet  | ResNet-101 | 43.1 | [Model](https://drive.google.com/file/d/1g7KiTE5oSbcNVNHf91EMR8HQJdsZAFB3/view?usp=sharing) - [Metrics](https://drive.google.com/file/d/15Pp1AErl38xNpFmf7fA9YvkGuR4Zxd8q/view?usp=sharing) |
 | Mask R-CNN  | ResNet-50 | - | Training |
 | Mask R-CNN  | ResNet-101 | - | Training |
 
