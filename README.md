@@ -6,7 +6,7 @@ Yukang Chen<sup>*</sup>, Yanwei Li<sup>*</sup>, Tao Kong, Lu Qi, Ruihang Chu, Le
 <!-- [[`Paper`](https://arxiv.org/abs/2103.17220)] [[`BibTeX`](#CitingSAAutoAug)] -->
 
 <div align="center">
-  <img src="Framework.png" height="400" width="300"/>
+  <img src="docs/Framework.png" height="900" width="1200"/>
 </div><br/>
 
 This project provides the implementation for the CVPR 2021 paper "[Scale-aware Automatic Augmentation for Object Detection](https://arxiv.org/pdf/2103.17220.pdf)".
@@ -65,7 +65,9 @@ python3 ./tools/train_net.py --num-gpus 8 --config-file ./configs/COCO-Detection
 
 
 ## Results
-We provide the results on COCO val2017 set with pretrained models.
+We provide the results on COCO *val2017* set with pretrained models.
+
+#### Based on maskrcnn-benchmark
 
 |  Method   | Backbone  | AP | Model | 
 |  ----  | ----  | ----  | ----  |
@@ -75,12 +77,16 @@ We provide the results on COCO val2017 set with pretrained models.
 | RetinaNet  | ResNet-101 | 42.8 | [Model](https://drive.google.com/file/d/19mYsWpeMBLvIpdhXRYGYKX6C_63PFhld/view?usp=sharing) |
 | Mask R-CNN  | ResNet-50 | 38.1 | [Model](https://drive.google.com/file/d/1DdacDkXs-lZ4iMutsONvKbPuDmwxpg9h/view?usp=sharing) |
 | Mask R-CNN  | ResNet-101 | 40.0 | [Model](https://drive.google.com/file/d/1qi7G39CyLzeYnsmsIXcOM8ZigVehq3O0/view?usp=sharing) |
+
+#### Based on FCOS
+|  Method   | Backbone  | AP | Model | 
+|  ----  | ----  | ----  | ----  |
 | FCOS  | ResNet-50 | 42.6 | [Model](https://drive.google.com/file/d/12QECU5eRwmoM461ci2yk4MuQ74TiiCp6/view?usp=sharing) |
 | FCOS  | ResNet-101 | 44.0 | [Model](https://drive.google.com/file/d/1dEvERXupNwYsGZZ2V2H9eeM5wjwsbpPr/view?usp=sharing) |
 | ATSS  | ResNext-101-32x8d-dcnv2 | 48.5 | [Model](https://drive.google.com/file/d/12_EnIO0sazi2HWMSChr15gnZFpFpXtK0/view?usp=sharing) |
 | ATSS  | ResNext-101-32x8d-dcnv2 | 49.6 | [Model](https://drive.google.com/file/d/1wWyOI2udwPWBeM5Plk4XBxNPFdgixam0/view?usp=sharing) |
 
-
+#### Based on Detectron2
 |  Method   | Backbone  | AP | Model | 
 |  ----  | ----  | ----  | ----  | 
 | Faster R-CNN  | ResNet-50 | 41.9 | [model](https://drive.google.com/file/d/1jgxnw1-b4ZnTNyn9rR_7u6vkvqGR1ks3/view?usp=sharing) [metrics](https://drive.google.com/file/d/16d1MyFVPWHJK__O0FQcAwxG8uWc8vAhi/view?usp=sharing) |
@@ -106,7 +112,7 @@ Consider cite SA-Autoaug in your publications if it helps your research.
 ## Acknowledgments
 This training code of this project is built on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark), [Detectron2](https://github.com/facebookresearch/detectron2), [FCOS](https://github.com/tianzhi0549/FCOS), and [ATSS](https://github.com/sfzhang15/ATSS). The search code of this project is modified from [DetNAS](https://github.com/megvii-model/DetNAS). Some augmentation code and settings follow [AutoAug-Det](https://github.com/tensorflow/tpu/blob/master/models/official/detection/utils/autoaugment_utils.py). We thanks a lot for the authors of these projects.
 
-*Note that*:
+Note that:
 
 (1) We also provides script files for search and training in [maskrcnn-benchmark](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/maskrcnn-benchmark), [FCOS](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/FCOS), and, [detectron2](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/detectron2).
 
