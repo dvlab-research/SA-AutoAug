@@ -116,5 +116,5 @@ Note that:
 
 (1) We also provides script files for search and training in [maskrcnn-benchmark](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/maskrcnn-benchmark), [FCOS](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/FCOS), and, [detectron2](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/detectron2).
 
-(2) Any issues or pull requests on this project are welcome. In addition, if you meet problems when tring to apply the augmentations on other datasets or codebase, feel free to contact Yukang Chen (yukangchen@cse.cuhk.edu.hk).
+(2) Any issues or pull requests on this project are welcome. In addition, if you meet problems when applying the augmentations to other datasets or codebase, feel free to contact Yukang Chen (yukangchen@cse.cuhk.edu.hk).
 
