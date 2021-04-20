@@ -1,12 +1,12 @@
 # SA-AutoAug
 **Scale-aware Automatic Augmentation for Object Detection**
 
-Yukang Chen<sup>*</sup>, Yanwei Li<sup>*</sup>, Tao Kong, Lu Qi, Ruihang Chu, Lei Li, Jiaya Jia
+Yukang Chen, Yanwei Li, Tao Kong, Lu Qi, Ruihang Chu, Lei Li, Jiaya Jia
 
-<!-- [[`Paper`](https://arxiv.org/abs/2103.17220)] [[`BibTeX`](#CitingSAAutoAug)] -->
+[[`Paper`](https://arxiv.org/abs/2103.17220)] [[`BibTeX`](#CitingSAAutoAug)]
 
-<div align="left">
-  <img src="Framework.png" height="300" width="600"/>
+<div align="center">
+  <img src="Framework.png" height="400" width="800"/>
 </div><br/>
 
 This project provides the implementation for the CVPR 2021 paper "[Scale-aware Automatic Augmentation for Object Detection](https://arxiv.org/pdf/2103.17220.pdf)".
@@ -96,7 +96,7 @@ We provide the results on COCO *val2017* set with pretrained models.
 | Mask R-CNN  | ResNet-50 | - | Training |
 | Mask R-CNN  | ResNet-101 | - | Training |
 
-## Citing SA-AutoAug
+## <a name="CitingSAAutoAug"></a>Citing SA-AutoAug
 
 Consider cite SA-Autoaug in your publications if it helps your research.
 
