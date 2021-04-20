@@ -69,17 +69,17 @@ We provide the results on COCO *val2017* set with pretrained models.
 
 #### Based on maskrcnn-benchmark
 
-|  Method   | Backbone  | AP | Model | 
+|  Method   | Backbone  | AP<sub>bbox</sub> | Model | 
 |  ----  | ----  | ----  | ----  |
 | Faster R-CNN  | ResNet-50 | 41.8 | [Model](https://drive.google.com/file/d/1TdIKVfCwyiSmpRQcksi1ISIDgl-EjqSV/view?usp=sharing) |
 | Faster R-CNN  | ResNet-101 | 44.2 | [Model](https://drive.google.com/file/d/1VDlHqR9mKD-ZfnyzaOd_eyemo97e3KdH/view?usp=sharing) |
 | RetinaNet  | ResNet-50 | 41.4 | [Model](https://drive.google.com/file/d/1ojtT1eIcEhIiRo1OZZmT2QBriSan9U7b/view?usp=sharing) |
 | RetinaNet  | ResNet-101 | 42.8 | [Model](https://drive.google.com/file/d/19mYsWpeMBLvIpdhXRYGYKX6C_63PFhld/view?usp=sharing) |
-| Mask R-CNN  | ResNet-50 | 38.1 | [Model](https://drive.google.com/file/d/1DdacDkXs-lZ4iMutsONvKbPuDmwxpg9h/view?usp=sharing) |
-| Mask R-CNN  | ResNet-101 | 40.0 | [Model](https://drive.google.com/file/d/1qi7G39CyLzeYnsmsIXcOM8ZigVehq3O0/view?usp=sharing) |
+| Mask R-CNN  | ResNet-50 | 42.8 | [Model](https://drive.google.com/file/d/1DdacDkXs-lZ4iMutsONvKbPuDmwxpg9h/view?usp=sharing) |
+| Mask R-CNN  | ResNet-101 | 45.3 | [Model](https://drive.google.com/file/d/1qi7G39CyLzeYnsmsIXcOM8ZigVehq3O0/view?usp=sharing) |
 
 #### Based on FCOS
-|  Method   | Backbone  | AP | Model | 
+|  Method   | Backbone  | AP<sub>bbox</sub> | Model | 
 |  ----  | ----  | ----  | ----  |
 | FCOS  | ResNet-50 | 42.6 | [Model](https://drive.google.com/file/d/12QECU5eRwmoM461ci2yk4MuQ74TiiCp6/view?usp=sharing) |
 | FCOS  | ResNet-101 | 44.0 | [Model](https://drive.google.com/file/d/1dEvERXupNwYsGZZ2V2H9eeM5wjwsbpPr/view?usp=sharing) |
@@ -87,7 +87,7 @@ We provide the results on COCO *val2017* set with pretrained models.
 | ATSS  | ResNext-101-32x8d-dcnv2 | 49.6 | [Model](https://drive.google.com/file/d/1wWyOI2udwPWBeM5Plk4XBxNPFdgixam0/view?usp=sharing) |
 
 #### Based on Detectron2
-|  Method   | Backbone  | AP | Model | 
+|  Method   | Backbone  | AP<sub>bbox</sub> | Model | 
 |  ----  | ----  | ----  | ----  | 
 | Faster R-CNN  | ResNet-50 | 41.9 | [model](https://drive.google.com/file/d/1jgxnw1-b4ZnTNyn9rR_7u6vkvqGR1ks3/view?usp=sharing) [metrics](https://drive.google.com/file/d/16d1MyFVPWHJK__O0FQcAwxG8uWc8vAhi/view?usp=sharing) |
 | Faster R-CNN  | ResNet-101 | 44.2 | [model](https://drive.google.com/file/d/10A16hUKpL2ffNpk38cOq5V9GuDB7OwwS/view?usp=sharing) [metrics](https://drive.google.com/file/d/1LAAD06iJ3vG7AwMjg9mHwTBPqvGXte9p/view?usp=sharing) |
