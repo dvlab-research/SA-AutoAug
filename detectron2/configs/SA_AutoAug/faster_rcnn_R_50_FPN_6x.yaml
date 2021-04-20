@@ -1,0 +1,14 @@
+_BASE_: "../Base-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  MASK_ON: False
+  RESNETS:
+    DEPTH: 50
+AUTOAUG:
+  USE: True
+  LIST: (6, 9, 5, 3, 3, 4, 2, 4, 4, 4, 5, 2, 4, 1, 4, 2, 6, 4, 2, 2, 2, 6, 2, 2, 2, 0, 5, 1, 3, 0, 8, 5, 2, 8, 7, 5, 1, 3, 3, 3)
+SOLVER:
+  STEPS: (480000, 520000)
+  MAX_ITER: 540000
+INPUT:
+  MIN_SIZE_TRAIN: (800,)

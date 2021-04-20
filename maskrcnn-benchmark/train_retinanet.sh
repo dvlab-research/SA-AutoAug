@@ -1,0 +1,2 @@
+export NGPUS=8
+python3 -m torch.distributed.launch --nproc_per_node=$NGPUS tools/train_net.py --config-file configs/SA_AutoAug/retinanet_R-50-FPN_6x.yaml OUTPUT_DIR models/retinanet_R-50-FPN_6x_saautoaug
