@@ -101,7 +101,7 @@ We provide the results on COCO *val2017* set with pretrained models.
 Consider cite SA-Autoaug in your publications if it helps your research.
 
 ```
-@inproceedings{qi2021msad,
+@inproceedings{saautoaug,
   title={Scale-aware Automatic Augmentation for Object Detection},
   author={Yukang Chen, Yanwei Li, Tao Kong, Lu Qi, Ruihang Chu, Lei Li, Jiaya Jia},
   booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
