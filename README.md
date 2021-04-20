@@ -65,7 +65,7 @@ python3 ./tools/train_net.py --num-gpus 8 --config-file ./configs/COCO-Detection
 
 
 ## Results
-We provide the results on COCO *val2017* set with pretrained models.
+We provide the results on COCO val2017 set with pretrained models.
 
 |  Method   | Backbone  | AP | Model | 
 |  ----  | ----  | ----  | ----  |
@@ -106,7 +106,7 @@ Consider cite SA-Autoaug in your publications if it helps your research.
 ## Acknowledgments
 This training code of this project is built on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark), [Detectron2](https://github.com/facebookresearch/detectron2), [FCOS](https://github.com/tianzhi0549/FCOS), and [ATSS](https://github.com/sfzhang15/ATSS). The search code of this project is modified from [DetNAS](https://github.com/megvii-model/DetNAS). Some augmentation code and settings follow [AutoAug-Det](https://github.com/tensorflow/tpu/blob/master/models/official/detection/utils/autoaugment_utils.py). We thanks a lot for the authors of these projects.
 
-Note that:
+*Note that*:
 
 (1) We also provides script files for search and training in [maskrcnn-benchmark](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/maskrcnn-benchmark), [FCOS](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/FCOS), and, [detectron2](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/detectron2).
 
