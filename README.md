@@ -6,7 +6,7 @@ Yukang Chen<sup>*</sup>, Yanwei Li<sup>*</sup>, Tao Kong, Lu Qi, Ruihang Chu, Le
 <!-- [[`Paper`](https://arxiv.org/abs/2103.17220)] [[`BibTeX`](#CitingSAAutoAug)] -->
 
 <div align="center">
-  <img src="docs/Framework.png"/>
+  <img src="Framework.png"/>
 </div><br/>
 
 This project provides the implementation for the CVPR 2021 paper "[Scale-aware Automatic Augmentation for Object Detection](https://arxiv.org/pdf/2103.17220.pdf)".
