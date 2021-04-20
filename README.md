@@ -21,7 +21,7 @@ For [maskrcnn-benchmark](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/mas
 
 For [FCOS](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/FCOS) code, please follow [INSTALL.md](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/FCOS/INSTALL.md) for instruction.
 
-For [Detectron2](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/detectron2), please follow [INSTALL.md](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/detectron2/INSTALL.md) for instruction.
+For [Detectron2](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/detectron2) code, please follow [INSTALL.md](https://github.com/Jia-Research-Lab/SA-AutoAug/tree/master/detectron2/INSTALL.md) for instruction.
 
 ## Search
 (You can skip this step and directly train on our searched policies.)
