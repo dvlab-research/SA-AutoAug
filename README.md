@@ -84,7 +84,7 @@ We provide the results on COCO *val2017* set with pretrained models.
 | FCOS  | ResNet-50 | 42.6 | [Model](https://drive.google.com/file/d/12QECU5eRwmoM461ci2yk4MuQ74TiiCp6/view?usp=sharing) |
 | FCOS  | ResNet-101 | 44.0 | [Model](https://drive.google.com/file/d/1dEvERXupNwYsGZZ2V2H9eeM5wjwsbpPr/view?usp=sharing) |
 | ATSS  | ResNext-101-32x8d-dcnv2 | 48.5 | [Model](https://drive.google.com/file/d/12_EnIO0sazi2HWMSChr15gnZFpFpXtK0/view?usp=sharing) |
-| ATSS  | ResNext-101-32x8d-dcnv2 | 49.6 | [Model](https://drive.google.com/file/d/1wWyOI2udwPWBeM5Plk4XBxNPFdgixam0/view?usp=sharing) |
+| ATSS  | ResNext-101-32x8d-dcnv2 (1200 size)| 49.6 | [Model](https://drive.google.com/file/d/1wWyOI2udwPWBeM5Plk4XBxNPFdgixam0/view?usp=sharing) |
 
 #### Based on Detectron2
 |  Method   | Backbone  | AP<sub>bbox</sub> | Download | 
