@@ -46,7 +46,7 @@ class Zoom_in(object):
             for j, polys in enumerate(enlarged_mask):
                 poly_out = []
                 for poly in polys:
-                    if kept_box > 0:
+                    if len(cropped_bbox) > 0:
                         poly_new = copy.deepcopy(poly)
                         poly_new[0::2] = poly_new[0::2] - crop_y
                         poly_new[1::2] = poly_new[1::2] - crop_x
