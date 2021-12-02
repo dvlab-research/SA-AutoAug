@@ -33,7 +33,7 @@ def _geometric_aug_func(x, target, angle=0, translate=(0, 0), scale=1, shear=(0,
         translate = (-translate[0], -translate[1])
         shear = (-shear[0], -shear[1])
 
-    translate = (0, 0)
+    #translate = (0, 0)
     height, width = x.shape[1], x.shape[2]
 
     x_crops = []
